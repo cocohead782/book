@@ -6,14 +6,13 @@
     <a href="book.pdf">Download</a>
     
     
+<p>Display the entire URL of the current page.</p>
+
 <p id="demo"></p>
 
 <script>
-code="window.location.href;
-  If(code = https://cocohead782.github.io/book/book.html?code=caffinepatch){
-     window.location = "book.pdf";
-     }
-    
+document.getElementById("demo").innerHTML = 
+"Page location is: " + window.location.href;
 </script>
   </body>
 </html>
